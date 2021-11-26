@@ -8,13 +8,13 @@ public class Recursive_Factorial {
 
     int factorial(int b)
     {
-        if(b>1)
+        if(b==1)
         {
-            return b*factorial(b-1);
+          return 1;  
         }
         else 
         {
-            return 1;
+            return b*factorial(b-1);
         }
     }
 }
